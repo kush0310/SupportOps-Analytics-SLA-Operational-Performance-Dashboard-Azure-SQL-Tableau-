@@ -7,7 +7,7 @@ Executive-level support operations dashboard designed to monitor SLA compliance,
 
 ## 🖼 Dashboard Preview
 
-![SupportOps Dashboard](SupportOps Analytics Dashboard.png)
+<img src="Us Housing project.png" width="800">
 
 ---
 
