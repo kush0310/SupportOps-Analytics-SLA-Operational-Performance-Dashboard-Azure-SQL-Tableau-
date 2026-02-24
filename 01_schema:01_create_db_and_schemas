@@ -1,0 +1,18 @@
+/* =========================================================
+   01_SCHEMA: Database + Schemas
+   Target: Azure SQL / SQL Server
+   ========================================================= */
+
+-- 1) Create DB (skip if your Azure SQL already has a DB provisioned)
+-- In Azure SQL, DB is usually created via portal. If running local SQL Server:
+CREATE DATABASE SupportOpsAnalytics;
+ GO
+
+-- If you already have the DB, just run the rest inside it.
+
+-- 2) Create schemas
+IF NOT EXISTS (SELECT 1 FROM sys.schemas WHERE name = 'stag') EXEC('CREATE SCHEMA stag');
+IF NOT EXISTS (SELECT 1 FROM sys.schemas WHERE name = 'trn') EXEC('CREATE SCHEMA trn');
+IF NOT EXISTS (SELECT 1 FROM sys.schemas WHERE name = 'dm')  EXEC('CREATE SCHEMA dm');
+GO
+

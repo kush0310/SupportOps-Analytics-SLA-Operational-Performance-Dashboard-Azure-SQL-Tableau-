@@ -1,0 +1,9 @@
+TicketID,CreatedDate,Year,Quarter,Month,MonthName,YearMonth,CustomerName,Segment,Region,AgentName,TeamName,Location,Channel,Priority,Status,FRT_Minutes,TTR_Minutes,SLA_Met_Flag,IsOverdue_Flag,ReopenCount,CSATScore,PullDate
+10001,2025-11-10,2025,4,11,November,2025-11,Northwind Co,SMB,Midwest,Aisha Khan,Tier 1,US-Central,Email,P2,Solved,25,180,1,0,0,5,2026-02-23
+10002,2025-11-12,2025,4,11,November,2025-11,Contoso LLC,Mid-Market,South,Ben Carter,Tier 1,US-East,Chat,P3,Solved,50,1260,0,0,1,4,2026-02-23
+10003,2025-12-01,2025,4,12,December,2025-12,Fabrikam Inc,Enterprise,Northeast,Carlos Diaz,Tier 2,US-West,Web,P1,Solved,15,145,0,0,0,3,2026-02-23
+10004,2025-12-14,2025,4,12,December,2025-12,Adventure Works,SMB,West,Divya Patel,Escalations,US-Central,Phone,P2,Open,NULL,NULL,NULL,1,0,NULL,2026-02-23
+10005,2026-01-05,2026,1,1,January,2026-01,Northwind Co,SMB,Midwest,Carlos Diaz,Tier 2,US-West,Email,P4,Closed,150,1740,0,0,2,2,2026-02-23
+10006,2026-01-17,2026,1,1,January,2026-01,Contoso LLC,Mid-Market,South,Ben Carter,Tier 1,US-East,Chat,P2,Solved,8,45,1,0,0,5,2026-02-23
+10007,2026-02-02,2026,1,2,February,2026-02,Fabrikam Inc,Enterprise,Northeast,Divya Patel,Escalations,US-Central,Web,P1,Solved,30,290,0,0,0,4,2026-02-23
+10008,2026-02-10,2026,1,2,February,2026-02,Adventure Works,SMB,West,Aisha Khan,Tier 1,US-Central,Email,P3,Pending,55,NULL,NULL,1,0,NULL,2026-02-23
