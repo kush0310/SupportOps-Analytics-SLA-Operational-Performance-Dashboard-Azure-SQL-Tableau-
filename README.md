@@ -50,3 +50,5 @@ All SLA and response-time logic is centralized in SQL to ensure KPI consistency 
 ## 🎯 Key Outcome
 
 Built an end-to-end BI solution that transforms raw operational ticket data into governed executive insights, demonstrating dimensional modeling, metric standardization, and dashboard design best practices.
+
+Created by Kush Patel
